@@ -1,7 +1,9 @@
 using UnityEngine;
 using System;
+using System.Runtime.CompilerServices;
+using static System.Runtime.CompilerServices.MethodImplOptions;
 
-[CreateAssetMenu(fileName ="Clothing")]
+[CreateAssetMenu(fileName ="Clothing", menuName ="Items/Clothing")]
 public class Clothing : ScriptableObject
 {
     [SerializeField] bool hasFrontRVariant, hasBackRVariant;
@@ -10,15 +12,21 @@ public class Clothing : ScriptableObject
     public Color defaultColor = Color.white;
     public decimal price = 123.45M;
     public Vector2 localPosition;
+    public Sprite[] Sprites = new Sprite[4];
+
+    [MethodImpl(AggressiveInlining)]
+    public bool Overlaps(Clothing other) => OverlappingArea(other) == Area.None;
+
+    [MethodImpl(AggressiveInlining)]
+    public Area OverlappingArea(Clothing other) => equipArea & other.equipArea;
 
     [Flags, Serializable]
-    public enum Area // System.Flags due to possibility of a piece of clothing occupying multiple areas (i.e. a dress)
+    public enum Area : byte// System.Flags due to possibility of a piece of clothing occupying multiple areas (i.e. a dress)
     {
-        None = 0, // Infinite pieces of clothing with area None can be equipped at any time!
+        None = 0,
         Torso = 1,
         Legs = 2,
         Feet = 4,
-        Hands = 8, // Player may equip two Hands clothing, one for each hand. First left, second right.
-        DoubleHands = 16 // DoubleHands remove any Hand clothing being currently held.
+        Hands = 8
     }
 }
