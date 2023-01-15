@@ -18,12 +18,21 @@ public class Popups : Singleton<Popups>
         parent = gameObject;
     }
 
+    /// <summary>
+    /// Creates an awaitable PopUp that is interpreted as a boolean input (Yes button => true, No button => false)
+    /// </summary>
+    /// <param name="question">Question PopUp text</param>
+    /// <returns>Whether the player pressed yes or no.</returns>
     public static async UniTask<bool> Boolean(string question, string trueButtonLabel = "Yes", string falseButtonLabel = "No")
     {
         //throw new NotImplementedException();
         return true;
     }
 
+    /// <summary>
+    /// Creates an awaitable PopUp that send a message to player and awaits until he clicks the OK button
+    /// </summary>
+    /// <param name="message">Message PopUp text</param>
     public static async UniTask Ok(string message, string okButtonLabel = "Ok")
     {
         throw new NotImplementedException();

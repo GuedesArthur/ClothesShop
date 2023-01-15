@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// A sprite renderer that has sprites for each <see cref="CardinalAngles">CardinalAngle</see>
+/// </summary>
 [RequireComponent(typeof(SpriteRenderer))]
 public class CardinalAngleSprite : MonoBehaviour
 {
