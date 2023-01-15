@@ -1,7 +1,10 @@
 using System;
 using UnityEngine;
-using static UnityEditor.ShaderGraph.Internal.KeywordDependentCollection;
 
+/// <summary>
+/// <see cref="MonoBehaviour"/> Classes that are only instanced once. Easily referenced by <see cref="Instance"/>
+/// </summary>
+/// <typeparam name="TSelf">Parent component class type</typeparam>
 public abstract class Singleton<TSelf> : MonoBehaviour
     where TSelf : Component
 {
@@ -9,7 +12,7 @@ public abstract class Singleton<TSelf> : MonoBehaviour
     private static TSelf _instance;
     
     /// <summary>
-    /// Returns the static instance of the Singleton class.
+    /// Returns the <see cref="_instance">static instance</see> of the <see cref="Singleton{TSelf}">Singleton</see> class.
     /// </summary>
     /// <exception cref="UnityException">Thrown when no component is found when its first called</exception>
     public static TSelf Instance
