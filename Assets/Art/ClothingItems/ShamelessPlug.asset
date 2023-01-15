@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d2f1363cad98fb408c7873f007e8086, type: 3}
+  m_Name: ShamelessPlug
+  m_EditorClassIdentifier: 
+  equipArea: 4
+  price: 123.45
+  Icon: {fileID: 787043960, guid: 310410c95b635d349931cbc423d51e98, type: 3}
+  Sprites:
+  - {fileID: -304158923, guid: 310410c95b635d349931cbc423d51e98, type: 3}
+  - {fileID: 116587687, guid: 310410c95b635d349931cbc423d51e98, type: 3}
+  - {fileID: 116587687, guid: 310410c95b635d349931cbc423d51e98, type: 3}
+  - {fileID: 1017719227, guid: 310410c95b635d349931cbc423d51e98, type: 3}
+  - {fileID: 1017719227, guid: 310410c95b635d349931cbc423d51e98, type: 3}
+  - {fileID: 1190663497, guid: 310410c95b635d349931cbc423d51e98, type: 3}
+  - {fileID: -304158923, guid: 310410c95b635d349931cbc423d51e98, type: 3}
+  - {fileID: -304158923, guid: 310410c95b635d349931cbc423d51e98, type: 3}

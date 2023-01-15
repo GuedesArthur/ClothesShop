@@ -1,0 +1,589 @@
+fileFormatVersion: 2
+guid: 310410c95b635d349931cbc423d51e98
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DS_Icon
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 598
+        width: 117
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197a3e5f959ea244391e34ebfe8c58f1
+      internalID: -706687084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_BackLeft
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 634
+        width: 310
+        height: 73
+      alignment: 9
+      pivot: {x: 0.4951613, y: -2.1876712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92959414accb0e14baa7e167324f8880
+      internalID: -28710469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_BackRight
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 512
+        width: 310
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5048387, y: -2.1876712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795ff49c497465842ac2ea8a9665f55c
+      internalID: 161148596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_FrontRight
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 475
+        width: 348
+        height: 103
+      alignment: 9
+      pivot: {x: 0.45603448, y: -1.1650486}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74453359ab38584ca06185263e98f76
+      internalID: -1423422374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AC_FrontLeft
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 355
+        width: 149
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5, y: -0.9126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5219dafcf06d97c44b1b274f91d64884
+      internalID: 583974563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AC_BackLeft
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 351
+        width: 159
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5584906, y: -0.9456309}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687057ddfee2ad74ebb22c3f202e9c94
+      internalID: -602087947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AC_FrontRight
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 356
+        width: 149
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5, y: -0.9126214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40acbe423d2e4b846b0ef090c042f131
+      internalID: -712669531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AC_BackRight
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 350
+        width: 159
+        height: 103
+      alignment: 9
+      pivot: {x: 0.4465409, y: -0.9456309}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48992b8543c835846aac6663841a80b1
+      internalID: -1888122202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GA_FrontLeft
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 210
+        width: 140
+        height: 111
+      alignment: 9
+      pivot: {x: 0.46857142, y: -0.7612613}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e60c5565b25634db356fe2b0222f8c
+      internalID: -304158923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GA_BackLeft
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 218
+        width: 148
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5337838, y: -0.9456309}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f67b73cbe3a1e48b3abacd47dddf65
+      internalID: 1190663497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GA_BackRight
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 218
+        width: 148
+        height: 103
+      alignment: 9
+      pivot: {x: 0.4662162, y: -0.9456309}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b12bc03c04b174fb370ed43614c22d
+      internalID: 1017719227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GA_FrontRight
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 210
+        width: 140
+        height: 111
+      alignment: 9
+      pivot: {x: 0.5557143, y: -0.7612613}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4a0e0d57b704741892ce5f0445ab67
+      internalID: 116587687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CT_FrontLeft
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 99
+        width: 102
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5980392, y: -3.2529411}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c0e1be5c3896249a09bc3f1f2590d4
+      internalID: 982405223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CT_BackLeft
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 106
+        width: 42
+        height: 50
+      alignment: 9
+      pivot: {x: 1.8619047, y: -4.624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c22ac79cab56f743b771f9461b9dfba
+      internalID: -1619438465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CT_BackRight
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 106
+        width: 42
+        height: 50
+      alignment: 9
+      pivot: {x: -0.8857143, y: -4.624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cffdb596679b8b45a8188e18b2734b1
+      internalID: 523161719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CT_FrontRight
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 101
+        width: 102
+        height: 66
+      alignment: 9
+      pivot: {x: 0.4019608, y: -3.351515}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2030ee1b1ecc9b41b058ae5d8c2df15
+      internalID: -2053291694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CT_Icoon
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 131
+        width: 109
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5300e89dab826344b97aa8921bd6452
+      internalID: -1885640350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_FrontLeft
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 599
+        width: 349
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5739255, y: -1.1650486}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655c0e1341ee72647a939621d5a3183d
+      internalID: -1771023635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AC_Icon
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 354
+        width: 151
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e954f7bb475d144973d9078a03b7bd
+      internalID: -182531445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GA_Icon
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 210
+        width: 142
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e24cf2a676c0ab439e7eb71ac4d02ac
+      internalID: 787043960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CT_Icoon: -1885640350
+      CT_BackLeft: -1619438465
+      AC_BackLeft: -602087947
+      ItemsAtlas_21: -1125038954
+      ItemsAtlas_6: -1676208905
+      GA_BackLeft: 1190663497
+      DS_FrontLeft: -1771023635
+      CT_BackRight: 523161719
+      AC_FrontRight: -712669531
+      DS_Icon: -706687084
+      AC_FrontLeft: 583974563
+      GA_FrontRight: 116587687
+      AC_BackRight: -1888122202
+      CT_FrontRight: -2053291694
+      AC_Icon: -182531445
+      DS_BackLeft: -28710469
+      GA_Icon: 787043960
+      DS_BackRight: 161148596
+      GA_BackRight: 1017719227
+      CT_FrontLeft: 982405223
+      DS_FrontRight: -1423422374
+      ItemsAtlas_5: -1776177539
+      GA_FrontLeft: -304158923
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

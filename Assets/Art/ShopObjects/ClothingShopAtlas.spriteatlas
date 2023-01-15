@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ClothingShopAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 4468d6b071ce6e34fac526c6c15c0fd8, type: 3}
+    - {fileID: 2800000, guid: 5ec9a8311b19452428db21aa5363a335, type: 3}
+    - {fileID: 2800000, guid: 3bd8fe28da232da41adeef3309b511fe, type: 3}
+    - {fileID: 2800000, guid: be64325c283f7ce4d8f83ab74cbcabd1, type: 3}
+    - {fileID: 2800000, guid: 5e4a13b06417a7f47a7d8a1b80e8d783, type: 3}
+    - {fileID: 2800000, guid: bd864ec10ce8b03448b6fe0b691aac5a, type: 3}
+    - {fileID: 2800000, guid: 0bd0323b43837fc4a8d1b2fca4a4698e, type: 3}
+    - {fileID: 2800000, guid: c24e2414b918c91419aaf2c87cc05fac, type: 3}
+    - {fileID: 2800000, guid: cd14623a388a93b49b399b5e105b76d3, type: 3}
+    - {fileID: 2800000, guid: b400e4a559324554094b240617959cb4, type: 3}
+    - {fileID: 2800000, guid: 01b96cefe0776f648b9da50331b4a77c, type: 3}
+    - {fileID: 2800000, guid: 9d7a0f8faae2540499671a48664cdc42, type: 3}
+    - {fileID: 2800000, guid: 4f576afeed8e2e5458ae74b878bed09c, type: 3}
+    - {fileID: 2800000, guid: 2f5a9764ee32ebf4ba4de05df5c4bfad, type: 3}
+    - {fileID: 2800000, guid: a58ccbb12a5b92d4aaf8b9f109a5ac3e, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 5e4a13b06417a7f47a7d8a1b80e8d783, type: 3}
+  - {fileID: 21300000, guid: 4468d6b071ce6e34fac526c6c15c0fd8, type: 3}
+  - {fileID: 21300000, guid: 5ec9a8311b19452428db21aa5363a335, type: 3}
+  - {fileID: 21300000, guid: a58ccbb12a5b92d4aaf8b9f109a5ac3e, type: 3}
+  - {fileID: 21300000, guid: bd864ec10ce8b03448b6fe0b691aac5a, type: 3}
+  - {fileID: 21300000, guid: c24e2414b918c91419aaf2c87cc05fac, type: 3}
+  - {fileID: 21300000, guid: 2f5a9764ee32ebf4ba4de05df5c4bfad, type: 3}
+  - {fileID: 21300000, guid: b400e4a559324554094b240617959cb4, type: 3}
+  - {fileID: 21300000, guid: 3bd8fe28da232da41adeef3309b511fe, type: 3}
+  - {fileID: 21300000, guid: cd14623a388a93b49b399b5e105b76d3, type: 3}
+  - {fileID: 21300000, guid: 0bd0323b43837fc4a8d1b2fca4a4698e, type: 3}
+  - {fileID: 21300000, guid: be64325c283f7ce4d8f83ab74cbcabd1, type: 3}
+  - {fileID: 21300000, guid: 4f576afeed8e2e5458ae74b878bed09c, type: 3}
+  - {fileID: 21300000, guid: 9d7a0f8faae2540499671a48664cdc42, type: 3}
+  - {fileID: 21300000, guid: 01b96cefe0776f648b9da50331b4a77c, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Zilla
+  - EndTable
+  - GeigerCounter
+  - Bench
+  - Mirror1964
+  - SewingMachine
+  - Manequin
+  - StrangeMeteorite
+  - Glofo
+  - ZillaClothingShopLogo
+  - MissingDogPoster
+  - LogisticEquationTree
+  - WitheredPhoto
+  - WesternPistol
+  - UniversityPhoto
+  m_RenderDataMap: {}
+  m_Tag: ClothingShopAtlas
+  m_IsVariant: 0

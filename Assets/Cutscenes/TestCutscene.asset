@@ -1,0 +1,346 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7812609616749576475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e8163bc699870a4a8ba61fce0069b6d, type: 3}
+  m_Name: Arthur2
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -200, y: -200}
+  ports:
+    keys:
+    - this
+    - next
+    values:
+    - _fieldName: this
+      _node: {fileID: -7812609616749576475}
+      _typeQualifiedName: CutsceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: next
+        node: {fileID: -4652943960273561294}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: next
+      _node: {fileID: -7812609616749576475}
+      _typeQualifiedName: CutsceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: this
+        node: {fileID: 5516631212308194894}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  this: {fileID: -7812609616749576475}
+  next: {fileID: 5516631212308194894}
+  actor: {fileID: 11400000, guid: 90ba0fb5321c1d740beab4fa54c34d10, type: 2}
+  dialogText: Chill..OH GOD THERE IS BLOOD EVERYWHERE
+--- !u!114 &-4652943960273561294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e8163bc699870a4a8ba61fce0069b6d, type: 3}
+  m_Name: Zilla2
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -440, y: -200}
+  ports:
+    keys:
+    - this
+    - next
+    values:
+    - _fieldName: this
+      _node: {fileID: -4652943960273561294}
+      _typeQualifiedName: CutsceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: next
+        node: {fileID: 3074478733430480589}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: next
+      _node: {fileID: -4652943960273561294}
+      _typeQualifiedName: CutsceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: this
+        node: {fileID: -7812609616749576475}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  this: {fileID: -4652943960273561294}
+  next: {fileID: -7812609616749576475}
+  actor: {fileID: 11400000, guid: e0e5f77f3c19ccf46aa5bf859d772735, type: 2}
+  dialogText: Don't you patronize me, you filthy mammal
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f91c03e684bd3449b985f2fdfc5b256, type: 3}
+  m_Name: TestCutscene
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 3074478733430480589}
+  - {fileID: -4652943960273561294}
+  - {fileID: -7812609616749576475}
+  - {fileID: 2527112755814791395}
+  - {fileID: 5516631212308194894}
+  - {fileID: 6499848081795827812}
+  - {fileID: 1079324755995403073}
+  _root: {fileID: 0}
+--- !u!114 &1079324755995403073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e8163bc699870a4a8ba61fce0069b6d, type: 3}
+  m_Name: Zilla3
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 520, y: -200}
+  ports:
+    keys:
+    - this
+    - next
+    values:
+    - _fieldName: this
+      _node: {fileID: 1079324755995403073}
+      _typeQualifiedName: CutsceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: next
+        node: {fileID: 6499848081795827812}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: next
+      _node: {fileID: 1079324755995403073}
+      _typeQualifiedName: CutsceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  this: {fileID: 1079324755995403073}
+  next: {fileID: 0}
+  actor: {fileID: 11400000, guid: e0e5f77f3c19ccf46aa5bf859d772735, type: 2}
+  dialogText: Please finish my game's Design Document this year.
+--- !u!114 &2527112755814791395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e8163bc699870a4a8ba61fce0069b6d, type: 3}
+  m_Name: Zilla1
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -920, y: -200}
+  ports:
+    keys:
+    - this
+    - next
+    values:
+    - _fieldName: this
+      _node: {fileID: 2527112755814791395}
+      _typeQualifiedName: CutsceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: next
+      _node: {fileID: 2527112755814791395}
+      _typeQualifiedName: CutsceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: this
+        node: {fileID: 3074478733430480589}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  this: {fileID: 2527112755814791395}
+  next: {fileID: 3074478733430480589}
+  actor: {fileID: 11400000, guid: e0e5f77f3c19ccf46aa5bf859d772735, type: 2}
+  dialogText: Thanks for shopping at Zilla gam... I mean, Clothing Shop
+--- !u!114 &3074478733430480589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e8163bc699870a4a8ba61fce0069b6d, type: 3}
+  m_Name: Arthur1
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -680, y: -200}
+  ports:
+    keys:
+    - this
+    - next
+    values:
+    - _fieldName: this
+      _node: {fileID: 3074478733430480589}
+      _typeQualifiedName: CutsceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: next
+        node: {fileID: 2527112755814791395}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: next
+      _node: {fileID: 3074478733430480589}
+      _typeQualifiedName: CutsceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: this
+        node: {fileID: -4652943960273561294}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  this: {fileID: 3074478733430480589}
+  next: {fileID: -4652943960273561294}
+  actor: {fileID: 11400000, guid: 90ba0fb5321c1d740beab4fa54c34d10, type: 2}
+  dialogText: I'll be back soon. See ya later, alligator!
+--- !u!114 &5516631212308194894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e8163bc699870a4a8ba61fce0069b6d, type: 3}
+  m_Name: Glofo
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 40, y: -200}
+  ports:
+    keys:
+    - this
+    - next
+    values:
+    - _fieldName: this
+      _node: {fileID: 5516631212308194894}
+      _typeQualifiedName: CutsceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: next
+        node: {fileID: -7812609616749576475}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: next
+      _node: {fileID: 5516631212308194894}
+      _typeQualifiedName: CutsceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: this
+        node: {fileID: 6499848081795827812}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  this: {fileID: 5516631212308194894}
+  next: {fileID: 6499848081795827812}
+  actor: {fileID: 11400000, guid: 13bd373549e12ee40ae785e866b406c5, type: 2}
+  dialogText: How is this shop still open? Who is sewing the clothes?
+--- !u!114 &6499848081795827812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e8163bc699870a4a8ba61fce0069b6d, type: 3}
+  m_Name: Arthur3
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 280, y: -200}
+  ports:
+    keys:
+    - this
+    - next
+    values:
+    - _fieldName: this
+      _node: {fileID: 6499848081795827812}
+      _typeQualifiedName: CutsceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: next
+        node: {fileID: 5516631212308194894}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: next
+      _node: {fileID: 6499848081795827812}
+      _typeQualifiedName: CutsceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: this
+        node: {fileID: 1079324755995403073}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  this: {fileID: 6499848081795827812}
+  next: {fileID: 1079324755995403073}
+  actor: {fileID: 11400000, guid: 90ba0fb5321c1d740beab4fa54c34d10, type: 2}
+  dialogText: It turns out I'm still alive!
